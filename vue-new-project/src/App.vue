@@ -1,0 +1,27 @@
+<template>
+  <section>
+    <header><h1>My friends</h1></header>
+    <ul>
+      <friend-contact></friend-contact>
+    </ul>
+  </section>
+</template>
+
+<script>
+// import FriendContact from "./components/FriendContact.vue"
+
+export default {
+  data() {
+    return { 
+      friends: [
+        {id: 'manuel', name: 'Manuel Lorenz', phone: '0123 45678 90', email: 'manuel@localhost.com'},
+        {id: 'julie', name: 'Julie Jones', phone: '0123 45678 90', email: 'julie@localhost.com'}
+      ]
+    }
+  }
+}
+</script>
+
+<style lang="stylus" scoped>
+
+</style>
